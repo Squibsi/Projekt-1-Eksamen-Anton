@@ -1,9 +1,2 @@
 READ ME:
-This is the Landing page made by group 7 in 1st semester multimediadesign in Erhvervsakemi Aarhus
-
-members:
-Annamaria Sommer
-Anton Reedtz Nesgaard
-Benjamin Stistrup Skov Knudsen
-Ida Thomassen
-Lærke Theodine Lønne
+This is an improved version of the Landing page made by group 7 in 1st semester multimediadesign in Erhvervsakemi Aarhus that I (Anton Reedtz Nesgaard) picked for my exam
