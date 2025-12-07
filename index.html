@@ -9,7 +9,8 @@
 
   <!-- Made the 3 style imports lines into 1 -->
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
   </style>
 </head>
 <body>
@@ -20,11 +21,11 @@
       <img src="images/burgerMenu.png" alt="burgermenu">
     </a>
     <!--nav logo -->
-    <a>
+    <a class="nav-center">
       <img class="nav-logo" src="images/LOGO LUMINA.png" alt="Logo Lumina in the middle of the top nav">
     </a>
     <!-- top nav logos -->
-    <a>
+    <a class="navIcons">
       <img src="images/searchLogo.png" alt="search logo">
       <img src="images/littleFella.png" alt="login">
       <img src="images/shoppingCart.png" alt="basket">
@@ -41,10 +42,15 @@
       <h1>LUMINA</h1>
       <p class="p1">ONE</p>
       <p>Én højtaler. Uendelige øjeblikke</p>
-      <p>1995,-</p> 
+      <section class="price-and-button">
+        <p class="price">1995,-</p> 
+        <button class="buy-button">Køb Nu</button>
+      </section>
+      <!---
       <a>
         <img src="images/KØB NU.png" alt="buy now button">  
       </a>
+    -->
     </section>
 
     <!-- Hero bottom text -->
@@ -54,17 +60,12 @@
       <span>GARANTI</span>
     </p>
   </header>
-
-  <!-- Images and logos -->
-  <main> 
-    <section id="IS">
-      <img src="images/Bluetooth ICOn.png" alt="Bluetooth logo">
-      <img src="images/Waterproof ICON.png" alt="Waterproof logo">
-      <img src="images/batteri.png" alt="battery logo">
-      <img src="images/trustpilotstjerne.png" alt="Trustpilot star logo">
-    </section>
    
     <!-- Pictures of the 4 different colors of the speaker -->
+    <p class="speakercolours"> 
+      Farvevarianter:
+    </p>
+
     <section id="photos">
       <img src="images/Dusty Rose pics.png" alt="a picture of our dusty rose speaker with a cup og coffee">
       <img src="images/moonlight -.png" alt="a picture of our moonlight white speaker">
