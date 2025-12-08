@@ -245,18 +245,9 @@ h3 {
   padding-bottom: 0.5rem;
   font-size: 25px;
   color: #484848;
+  font-family: "Inria Sans", sans-serif;
 }
 
-/*the logo above the about section*/
-#minilogo {
-  display: flex;
-  justify-content: center;
-}
-
-#minilogo img {
-  max-width: 120px;
-  height: auto;
-}
 
 .specs{
   list-style-type: disc;
@@ -271,15 +262,25 @@ h3 {
   color: #484848;
 }
 
+/*the logo above the about section*/
+#minilogo {
+  display: flex;
+  justify-content: center;
+}
+
+#minilogo img {
+  max-width: 85px;
+  height: auto;
+}
 
 /*About us text*/
 .p2 {
   display: flex;
   justify-content: center;
   text-align: center;
-  max-width: 700px;
-  margin: 0 auto;
-  line-height: 1.6;
+  max-width: 80%;
+  margin: 24px auto;
+  line-height: 2.4;
   font-size: 1.1rem;
   padding-bottom: 3rem;
   font-family: "inter", sans-serif;
@@ -328,7 +329,8 @@ h4{
   
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 600px) {
