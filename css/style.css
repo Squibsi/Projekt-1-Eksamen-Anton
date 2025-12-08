@@ -238,6 +238,8 @@ hr{
   margin: 2rem 24px;
 }
 
+
+
 /*Specifications text*/
 h3 {
   display: flex;
@@ -355,23 +357,49 @@ h3 {
 }
 
 
-/* Footer center */
+/* Footer Styling */
+
 footer {
   display: flex;
-  justify-content: space-around;
-  gap: 2rem;
-  padding: 2rem;
-  color: #000;
+  width: 100%;
+}
+
+h4{
+  display: 1;
+  padding-bottom: 0.5rem;
+  font-size: 25px;
+  color: #484848;
+  font-family: "Inria Sans", sans-serif;
+  margin-bottom: 4px;
 }
 
 .footer article {
-  max-width: 250px;
+  flex: 1;
+  padding-left: 24px;
   color: #484848;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-right: 0.5px solid rgba(75,75,75,0.4);
+  margin-bottom: 60px;
 }
-/* font size */
-h4{
-  font-size: 25px;
+
+.socials{
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
+
+.socials img{
+  width: 28px;
+  height: 28px;
+}
+
+.tpilot{
+  width: 100px;
+  display: block;
+}
+
 
 /*copy right text*/
 #bunden {
@@ -385,7 +413,7 @@ h4{
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* RESPONSIVE DESIGN */
+/* Responsiv design IKKE BRUGT! 
 @media (max-width: 600px) {
   body {
   background-color: #E3E3D0;
@@ -404,3 +432,4 @@ h4{
     display: block;
   }
 }
+  */
