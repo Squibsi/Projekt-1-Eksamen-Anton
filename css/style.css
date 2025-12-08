@@ -120,6 +120,7 @@ body{
 
 .buy-button:hover{
   background-color: #76FFB0;
+  cursor: pointer;
 }
 
 .buy-button:active{
@@ -217,6 +218,7 @@ main {
 
 #photos article:hover {
   transform: scale(1.01);
+  cursor: pointer;
 }
 
 #photos article p{
@@ -346,6 +348,7 @@ h3 {
 .centered-stack article:hover img {
   filter: blur(4px) brightness(0.7);
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .centered-stack article:hover .cslabel{
