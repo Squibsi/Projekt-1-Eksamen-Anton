@@ -353,6 +353,7 @@ h3 {
 
 .centered-stack article:hover .cslabel{
   filter: blur(4px) brightness(0.7);
+  cursor: pointer;
 }
 
 .centered-stack article:hover .cshover{
