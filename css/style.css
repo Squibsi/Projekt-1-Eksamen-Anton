@@ -51,6 +51,8 @@ body{
   justify-content: center;
 }
 
+/*---------------------------------------------------------------*/
+
 /* Hero here is every change for hero video*/
 .hero {
   position: relative;
@@ -165,14 +167,7 @@ body{
   white-space: nowrap;
 }
 
-.speakercolours{
-  padding-top: 24px;
-  padding-left: 24px;
-  font-size: 1.4rem;
-  font-family: "Inria Sans", sans-serif;
-  font-weight: bold;
-  color: #484848;
-}
+/*---------------------------------------------------------------*/
 
 /* Main */
 main {
@@ -180,6 +175,17 @@ main {
   background: #E3E3D0;
   color: #000;
   padding: 1rem;
+}
+
+/*---------------------------------------------------------------*/
+
+.speakercolours{
+  padding-top: 24px;
+  padding-left: 24px;
+  font-size: 1.4rem;
+  font-family: "Inria Sans", sans-serif;
+  font-weight: bold;
+  color: #484848;
 }
 
 /* the 4 speaker photos beneath the icons */
@@ -222,6 +228,8 @@ main {
   font-family: "Inria Sans", sans-serif;
 }
 
+/*---------------------------------------------------------------*/
+
 /*A Horizontal line to separate content*/
 hr{
   border: none;
@@ -230,7 +238,7 @@ hr{
   margin: 2rem 24px;
 }
 
-
+/*---------------------------------------------------------------*/
 
 /*Specifications text*/
 h3 {
@@ -260,30 +268,7 @@ h3 {
   font-weight: bold;
 }
 
-/*the logo above the about section*/
-#minilogo {
-  display: flex;
-  justify-content: center;
-}
-
-#minilogo img {
-  max-width: 85px;
-  height: auto;
-}
-
-/*About us text*/
-.p2 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  max-width: 80%;
-  margin: 24px auto;
-  line-height: 2.4;
-  font-size: 1.1rem;
-  padding-bottom: 3rem;
-  font-family: "inter", sans-serif;
-  color: #484848;
-}
+/*---------------------------------------------------------------*/
 
 /*Centered stack (Coming soon speaker cards)*/
 .centered-stack {
@@ -355,6 +340,34 @@ h3 {
   opacity: 1;
 }
 
+/*---------------------------------------------------------------*/
+
+/*the logo above the about section*/
+#minilogo {
+  display: flex;
+  justify-content: center;
+}
+
+#minilogo img {
+  max-width: 85px;
+  height: auto;
+}
+
+/*About us text*/
+.p2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 80%;
+  margin: 24px auto;
+  line-height: 2.4;
+  font-size: 1.1rem;
+  padding-bottom: 3rem;
+  font-family: "inter", sans-serif;
+  color: #484848;
+}
+
+/*---------------------------------------------------------------*/
 
 /* Footer Styling */
 
@@ -409,6 +422,8 @@ h4{
   color: #484848;
   
 }
+
+/*---------------------------------------------------------------*/
 
 /*imported fonts from google*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
